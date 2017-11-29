@@ -46,4 +46,4 @@ print "Hello there"
 
 Here is a nice picture:
 
-![Lotr Logo](https://github.com/Knocker4/lotr-social-graphs/blob/gh-pages/images/lotr.jpeg)
+![Lotr Logo]({{ site.url }}/images/lotr.jpeg)
