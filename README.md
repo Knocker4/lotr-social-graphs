@@ -43,3 +43,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 # some comment
 print "Hello there"
 ```
+
+Here is a nice picture:
+
+![Lotr Logo]
+(https://knocker4.github.com/images/lotr.jpeg)
