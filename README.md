@@ -46,4 +46,4 @@ print "Hello there"
 
 Here is a nice picture:
 
-![Lotr Logo](https://knocker4.github.com/images/lotr.jpeg)
+![Lotr Logo](https://knocker4.github.com/lotr-social-graphs/images/lotr.jpeg)
