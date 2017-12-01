@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+<!-- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Knocker4/lotr-social-graphs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -46,4 +46,7 @@ print "Hello there"
 
 Here is a nice picture:
 
-![Lotr Logo](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/lotr.jpeg)
+![Lotr Logo](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/lotr.jpeg) -->
+
+
+The project presented resolves around the vast universe of Middle-Earth.
