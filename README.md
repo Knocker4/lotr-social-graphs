@@ -57,9 +57,29 @@ Since there are so many of them, it is hard to really understand how much influe
 
 Another topic worth looking into is the long-term fandom's debate of what is better: the books or the movies. Here we will analyze sentiment of three Lord of The Rings books and compare that to the sentiment of the movies, to see if the movies actually have the same feelings in it, or are they happier, or do they lack the intensity of the feelings of the book.
 
-Last, but not least, we will be looking into the sentiment of interactions between each of the main characters of the LoTR books. Do Aragorn and Frodo share happy memories? Do Legolas and Gimly fight more than laugh around? Do Pippin and Merry ever had sad moments at all?
+Last, but not least, we will be looking into the sentiment of interactions between each of the main characters of the LoTR books. Do Aragorn and Frodo share happy memories? Do Legolas and Gimly fight more than laugh around? Did Pippin and Merry ever had sad moments at all?
 
 # Characters network
+
+We kick off our journey there and back again by creating the network of all the characters. In order to do that, we are going to use [The One Wiki To Rule Them All](http://lotr.wikia.com/wiki/Main_Page). 
+
+Using their api we fetch all of the characters and the links between them and build our network. Here it is in its raw state:
+
+<Initial graph>
+
+The number of nodes in this graph is 784, each node represents one charater and each edge represents the link between two characters. As one can notice there are quite a lot of characters with barely any links, thus they are not worth investingating into and we should clean them up. we will perform the clean up by extracting the giant connected component. This leaves us with the following graph:
+
+<Giant component, no races>
+
+Here we are left with 752 characters. What you haven't been told yet is that together with characters and links, we fetched their races from the api. Thus each node has a 'race' item associated with it and we can use that information to assign each node its respective color:
+
+<Network with races, with no size difference>
+
+By looking at that graph one could get an idea that humans are pretty much the most influencial race in the history, but is it really true? Lets try to shape our graph a little bit by changing the size of the node based on its degree (we don't differentiate between in and out degree here, because we are working with an indirect graph):
+
+<Races network with sizes>
+
+Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits, they are deffinitely worth taking to Isengard! 
 
 # Compared sentiment analysis of LoTR books and movies
 
