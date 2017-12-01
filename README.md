@@ -75,7 +75,7 @@ Here we are left with 752 characters. What you haven't been told yet is that tog
 
 > Network with races, with no size difference>
 
-By looking at that graph one could get an idea that humans are pretty much the most influencial race in the history, but is it really true? Lets try to shape our graph a little bit by changing the size of the node based on its degree (we don't differentiate between in and out degree here, because we are working with an indirect graph):
+By looking at that graph one could get an idea that humans are pretty much the most influencial race in the history, but is it really true? Lets try to shape our graph a little bit by changing the size of the node based on its degree (we don't differentiate between in and out degree here, because we are working with an undirected graph):
 
 > Races network with sizes>
 
