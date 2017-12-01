@@ -45,8 +45,23 @@ print "Hello there"
 ```
 
 Here is a nice picture:
+-->
 
-![Lotr Logo](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/lotr.jpeg) -->
+<!-- ![Lotr Logo](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/lotr.jpeg) -->
 
+# Introduction
 
-The project presented resolves around the vast universe of Middle-Earth.
+The project presented resolves around the vast universe of Middle-Earth. Here we are going to explore this world from the perspective of characters. 
+
+Since there are so many of them, it is hard to really understand how much influence particular characters had over the others. On top of that, a large portion of Tolkien's books revolve around the races and tension between them. Thus we will also look into that and try to figure out which races interact most with which, which race is the most influential one, and which is the least.
+
+Another topic worth looking into is the long-term fandom's debate of what is better the books or the movies. Here we will analyze sentiment of three Lord of The Rings books and compare that to the sentiment of the movies, to see if the movies actually have the same feelings in it, or is it happier, or does it lack the intensity of feelings of the book.
+
+Last, but not least, we will be looking into the sentiment of interactions between each of the main characters of the LoTR books. Does Aragorn and Frodo share happy memories? Do Legolas and Gimly fight more than laugh around? Do Pippin and Merry ever have sad moments at all?
+
+# Characters network
+
+# Compared sentiment analysis of LoTR books and movies
+
+# Sentiment analysis of interractions of characters
+
