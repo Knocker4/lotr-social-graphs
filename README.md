@@ -73,13 +73,13 @@ The number of nodes in this graph is 784, each node represents one charater and 
 
 Here we are left with 752 characters. What you haven't been told yet is that together with characters and links, we fetched their races from the api. Thus each node has a 'race' item associated with it and we can use that information to assign each node its respective color:
 
-> Network with races, with no size difference>
+> Network with races, with no size difference
 
 By looking at that graph one could get an idea that humans are pretty much the most influencial race in the history, but is it really true? Lets try to shape our graph a little bit by changing the size of the node based on its degree (we don't differentiate between in and out degree here, because we are working with an undirected graph):
 
-> Races network with sizes>
+> Races network with sizes
 
-Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits, they are deffinitely worth taking to Isengard! 
+Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits: they are deffinitely worth taking to Isengard!
 
 # Compared sentiment analysis of LoTR books and movies
 
