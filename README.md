@@ -79,9 +79,21 @@ By looking at that graph one could get an idea that humans are pretty much the m
 
 > Races network with sizes
 
-Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits: they are deffinitely worth taking to Isengard!
+Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits: they are deffinitely worth being taken to Isengard!
+
+Based on everything descried above, here are top five races that had the biggest impact in the universe:
+
+> Top 5 races
+
 
 # Compared sentiment analysis of LoTR books and movies
+
+In order to perform sentiment analysis we need to find the full text of movie scripts and books. We managed to find full text of books here: [The Fellowship of the Ring](http://portal.tolkienianos.pt/files/The_LotR_I.pdf), [The Two Towers](http://portal.tolkienianos.pt/files/The_LotR_II.pdf), [The Return of the King](http://portal.tolkienianos.pt/files/The_LotR_III.pdf); and the full text of movie scripts here: [FOTR](http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf) , [The Two Towers](http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf)
+
+| Volume | Book | Screenplay |
+|--------|------|------------|
+|The Fellowship of the Ring | [http://portal.tolkienianos.pt/files/The_LotR_I.pdf] | [http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf] |
+
 
 # Sentiment analysis of interractions of characters
 
