@@ -53,11 +53,11 @@ Here is a nice picture:
 
 The project presented resolves around the vast universe of Middle-Earth. Here we are going to explore this world from the perspective of characters. 
 
-Since there are so many of them, it is hard to really understand how much influence particular characters had over the others. On top of that, a large portion of Tolkien's books revolve around the races and tension between them. Thus we will also look into that and try to figure out which races interact most with which, which race is the most influential one, and which is the least.
+Since there are so many of them, it is hard to really understand how much influence particular characters had over the others. On top of that, a large portion of Tolkien books revolve around the races and tension between them. Thus we will also look into that and try to figure out which races interact most with which, which race is the most influential one, and which is the least.
 
-Another topic worth looking into is the long-term fandom's debate of what is better: the books or the movies. Here we will analyze sentiment of three Lord of The Rings books and compare that to the sentiment of the movies, to see if the movies actually have the same feelings in it, or are they happier, or do they lack the intensity of the feelings of the book.
+Another topic worth looking into is the long-term fandom debate of what is better: the books or the movies. Here we will analyze sentiment of three Lord of The Rings books and compare that to the sentiment of the movies, to see if the movies actually have the same feelings in it, or are they happier, or do they lack the intensity of the feelings of the book.
 
-Last, but not least, we will be looking into the sentiment of interactions between each of the main characters of the LoTR books. Do Aragorn and Frodo share happy memories? Do Legolas and Gimly fight more than laugh around? Did Pippin and Merry ever had sad moments at all?
+Last, but not least, we will be looking into the sentiment of interactions between each of the main characters of the LoTR books. Do Aragorn and Frodo share happy memories? Do Legolas and Gimli fight more than laugh around? Did Pippin and Merry ever had sad moments at all?
 
 # Characters network
 
@@ -67,7 +67,7 @@ Using their api we fetch all of the characters and the links between them and bu
 
 > Initial graph
 
-The number of nodes in this graph is 784, each node represents one charater and each edge represents the link between two characters. As one can notice there are quite a lot of characters with barely any links, thus they are not worth investingating into and we should clean them up. we will perform the clean up by extracting the giant connected component. This leaves us with the following graph:
+The number of nodes in this graph is 784, each node represents one character and each edge represents the link between two characters. As one can notice there are quite a lot of characters with barely any links, thus they are not worth investigating into and we should clean them up. we will perform the clean up by extracting the giant connected component. This leaves us with the following graph:
 
 > Giant component, no races
 
@@ -75,13 +75,13 @@ Here we are left with 752 characters. What you haven't been told yet is that tog
 
 > Network with races, with no size difference
 
-By looking at that graph one could get an idea that humans are pretty much the most influencial race in the history, but is it really true? Lets try to shape our graph a little bit by changing the size of the node based on its degree (we don't differentiate between in and out degree here, because we are working with an undirected graph):
+By looking at that graph one could get an idea that humans are pretty much the most influential race in the history, but is it really true? Lets try to shape our graph a little bit by changing the size of the node based on its degree (we don't differentiate between in and out degree here, because we are working with an undirected graph):
 
 > Races network with sizes
 
-Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits: they are deffinitely worth being taken to Isengard!
+Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits: they are definitely worth being taken to Isengard!
 
-Based on everything descried above, here are top five races that had the biggest impact in the universe:
+Based on everything described above, here are top five races that had the biggest impact in the universe:
 
 > Top 5 races
 
@@ -91,12 +91,27 @@ Based on everything descried above, here are top five races that had the biggest
 In order to perform sentiment analysis we need to find the full text of movie scripts and books. Here is where we managed to find them:
 <!-- We managed to find full text of books here: [The Fellowship of the Ring](http://portal.tolkienianos.pt/files/The_LotR_I.pdf), [The Two Towers](http://portal.tolkienianos.pt/files/The_LotR_II.pdf), [The Return of the King](http://portal.tolkienianos.pt/files/The_LotR_III.pdf); and the full text of movie scripts here: [FOTR](http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf) , [The Two Towers](http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf), [The Return of the King](http://www.fempiror.com/otherscripts/LordoftheRings3-ROTK.pdf) -->
 
-|  Volume  |  Book  |  Screenplay  |
-| -------- | ------ | ------------ |
+|  Volume  |   Book   |   Screenplay   |
+| -------- | :------: | :------------: |
 |The Fellowship of the Ring | [FotR Book](http://portal.tolkienianos.pt/files/The_LotR_I.pdf) | [FotR Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf) |
 | The Two Towers | [TT Book](http://portal.tolkienianos.pt/files/The_LotR_II.pdf) | [TT Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf) |
 | The Return of the King | [RotK Book](http://portal.tolkienianos.pt/files/The_LotR_III.pdf) | [RotK Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings3-ROTK.pdf) |
 
+With the help of [Data from Mechanical Turk study](http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0026752.s001&type=supplementary) we scan all the texts with a 200 word window and create the sentiment profiles of books and movies:
 
-# Sentiment analysis of interractions of characters
+> graphs for books and movies
+
+> Discussion on the graphs
+
+> If we have time left: maybe word clouds could show some insights?
+
+# Sentiment analysis of interactions of characters
+
+Now it is time to explore the relationships between the main characters of our books. We are going to take a close look at all nine members of the Fellowship, i.e. Aragorn, Gandalf, Frodo, Sam, Legolas, Gimli, Boromir, Merry and Pippin, as well as our main villains: Sauron, Saruman and Gollum.
+
+We are going to follow similar logic as in the previous section: we will separate our characters into pairs, then we are going to slide a 200 word window section through the text and if both characters' names (including aliases, like Gollum-Sméagol or Aragorn-Strider) under consideration appear in the window - we calculate the sentiment.
+
+> graphs for each pair of characters
+
+> Discussion of graphs: who had the happiest relationship, which relationship was most dramatic and difficult, etc.
 
