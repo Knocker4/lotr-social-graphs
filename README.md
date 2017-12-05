@@ -91,12 +91,12 @@ Based on everything descried above, here are top five races that had the biggest
 In order to perform sentiment analysis we need to find the full text of movie scripts and books. Here is where we managed to find them:
 <!-- We managed to find full text of books here: [The Fellowship of the Ring](http://portal.tolkienianos.pt/files/The_LotR_I.pdf), [The Two Towers](http://portal.tolkienianos.pt/files/The_LotR_II.pdf), [The Return of the King](http://portal.tolkienianos.pt/files/The_LotR_III.pdf); and the full text of movie scripts here: [FOTR](http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf) , [The Two Towers](http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf), [The Return of the King](http://www.fempiror.com/otherscripts/LordoftheRings3-ROTK.pdf) -->
 
-| Volume | Book   | Screenplay   |
-|--------|*------*|*------------*|
+|  Volume  |  Book    |  Screenplay    |
+| -------- | *------* | *------------* |
 |The Fellowship of the Ring | http://portal.tolkienianos.pt/files/The_LotR_I.pdf | http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf |
-| The Two Towers | http://portal.tolkienianos.pt/files/The_LotR_II.pdf | http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf |
+<!-- | The Two Towers | http://portal.tolkienianos.pt/files/The_LotR_II.pdf | http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf |
 | The Return of the King | http://portal.tolkienianos.pt/files/The_LotR_III.pdf | http://www.fempiror.com/otherscripts/LordoftheRings3-ROTK.pdf |
-
+ -->
 
 # Sentiment analysis of interractions of characters
 
