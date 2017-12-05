@@ -1,0 +1,23 @@
+TA 2985
+FO 63
+Meriadoc Brandybuck
+Shire
+Bolger
+Brandybuck
+Shire
+TA 2985
+Frodo Baggins|Frodo
+Meriadoc Brandybuck|Merry
+Peregrin Took|Pippin
+Samwise Gamgee|Sam
+Crickhollow
+The Fellowship of the Ring (novel)|The Fellowship of the Ring
+Odovacar Bolge
+Rosamunda Took
+Meriadoc Brandybuck
+Buckland
+FO 63|63
+Fourth Age
+Meriadoc Brandybuck|Merry
+Shire
+Gondor

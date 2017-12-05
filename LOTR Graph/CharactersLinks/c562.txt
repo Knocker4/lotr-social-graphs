@@ -1,0 +1,55 @@
+FA 442
+FA 473
+Rían
+Sword
+Men
+Edain
+House of Hador
+Edain
+Men
+First Age
+Huor
+Hador
+House of Hador
+Dor-lómin
+Galdor
+Hareth
+Haladin
+Húrin
+FA 458|458
+Húrin
+Brethil
+Orc
+Sirion
+Vala
+Ulmo
+Dimbar
+Eagles
+Gondolin
+Turgon
+House of Hador
+FA 462
+Morgoth
+Galdor
+Ered Wethrin
+FA 470
+Rían
+House of Bëor
+Tuor
+Fingon
+Nirnaeth Arnoediad
+Húrin
+Turgon
+Húrin
+Rían
+FA 473
+Númenóreans
+Eärendil
+The Silmarillion
+Quenta Silmarillion
+Of the Ruin of Beleriand and the Fall of Fingolfin
+The Silmarillion
+Quenta Silmarillion
+Of the Fifth Battle: Nirnaeth Arnoediad
+es:Huor
+fr:Huor

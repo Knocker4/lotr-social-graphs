@@ -1,0 +1,16 @@
+Bag_End
+Frodo_Baggins
+Hobbit
+Lotho_Sackville-Baggins
+Mayor_of_Michel_Delving
+Ruffians
+Sam_Gamgee
+Samwise_Gamgee
+Saruman
+Scouring_of_the_Shire
+Shire_Reckoning
+Southfarthing
+TA_3020
+The_Lord_of_the_Rings
+War_of_the_Ring
+Westfarthing

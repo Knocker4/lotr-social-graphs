@@ -1,0 +1,53 @@
+FA 450
+FA 473
+Huor
+Men
+Edain
+House of Bëor
+Men
+Dorthonion
+Edain
+House of Bëor
+Huor
+Tuor
+Belegund
+Morwen
+FA 450|450
+First Age
+Dorthonion
+Dagor Bragollach
+FA 455
+Barahir
+Emeldir
+Beren
+Dor-lómin
+House of Hador
+FA 461
+The Silmarillion
+Quenta Silmarillion
+Of the Ruin of Beleriand and the Fall of Fingolfin
+FA 470
+Huor
+House of Marach
+Húrin
+Nirnaeth Arnoediad
+arrow
+Tuor
+Annael
+Sindar
+The Silmarillion
+Quenta Silmarillion
+Of Tuor and the Fall of Gondolin
+Unfinished Tales
+Narn i Chîn Húrin
+Haudh-en-Nirnaeth
+FA 473
+The Silmarillion
+Quenta Silmarillion
+Of Túrin Turambar
+Unfinished Tales
+Of Tuor and his Coming to Gondolin
+Unfinished Tales
+Narn i Chîn Húrin
+The Childhood of Túrin
+Sindarin

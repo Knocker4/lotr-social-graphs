@@ -1,0 +1,29 @@
+First Age
+FA 473
+Swords|Sword
+Bow
+Men
+Easterlings
+:en:Easterling|Easterling
+:en:Men|Men
+First Age
+Lothlann
+Beleriand
+FA 463
+Borlach
+Borlad
+Borthand
+Maedhros
+March of Maedhros
+Morgoth
+Caranthir
+Noldor
+Ulfang
+Nirnaeth Arnoediad
+The Silmarillion
+Quenta Silmarillion
+Of the Ruin of Beleriand and the Fall of Fingolfin
+The Silmarillion
+Quenta Silmarillion
+Of the Fifth Battle: Nirnaeth Arnoediad
+The Lays of Beleriand
