@@ -93,9 +93,9 @@ In order to perform sentiment analysis we need to find the full text of movie sc
 
 |  Volume  |  Book  |  Screenplay  |
 | -------- | ------ | ------------ |
-|The Fellowship of the Ring | [](http://portal.tolkienianos.pt/files/The_LotR_I.pdf) | [](http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf) |
-| The Two Towers | [](http://portal.tolkienianos.pt/files/The_LotR_II.pdf) | [](http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf) |
-| The Return of the King | [](http://portal.tolkienianos.pt/files/The_LotR_III.pdf) | [](http://www.fempiror.com/otherscripts/LordoftheRings3-ROTK.pdf) |
+|The Fellowship of the Ring | [FotR Book](http://portal.tolkienianos.pt/files/The_LotR_I.pdf) | [FotR Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings1-FOTR.pdf) |
+| The Two Towers | [TT Book](http://portal.tolkienianos.pt/files/The_LotR_II.pdf) | [TT Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf) |
+| The Return of the King | [RotK Book](http://portal.tolkienianos.pt/files/The_LotR_III.pdf) | [RotK Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings3-ROTK.pdf) |
 
 
 # Sentiment analysis of interractions of characters
