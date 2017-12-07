@@ -67,13 +67,11 @@ Using their api we fetch all of the characters and the links between them and bu
 
 ![Initial graph](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/CompleteGraph.png)
 
-The number of nodes in this graph is 784, each node represents one character and each edge represents the link between two characters. As one can notice there are quite a lot of characters with barely any links, thus they are not worth investigating into and we should clean them up. we will perform the clean up by extracting the giant connected component. This leaves us with the following graph:
-
-> Giant component, no races
+The number of nodes in this graph is 784, each node represents one character and each edge represents the link between two characters. As one can notice there are quite a lot of characters with barely any links, thus they are not worth investigating into and we should clean them up. we will perform the clean up by extracting the giant connected component.
 
 Here we are left with 752 characters. What you haven't been told yet is that together with characters and links, we fetched their races from the api. Thus each node has a 'race' item associated with it and we can use that information to assign each node its respective color:
 
-> Network with races, with no size difference
+![Network with races, with no size difference](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/graphGCC.png)
 
 By looking at that graph one could get an idea that humans are pretty much the most influential race in the history, but is it really true? Lets try to shape our graph a little bit by changing the size of the node based on its degree (we don't differentiate between in and out degree here, because we are working with an undirected graph):
 
@@ -81,10 +79,10 @@ By looking at that graph one could get an idea that humans are pretty much the m
 
 Suddenly the picture has changed. Humans are still quite important all around, but look at those hobbits: they are definitely worth being taken to Isengard!
 
-Based on everything described above, here are top five races that had the biggest impact in the universe:
+Based on everything described above, here are top races of the characters that have the highest degree, alas the biggest impact in the universe:
 
-> Top 5 races
-
+<!-- > Top 5 races -->
+![Top races](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/graphNodesDegree2.png)
 
 
 # Compared sentiment analysis of LoTR books and movies
@@ -97,11 +95,12 @@ In order to perform sentiment analysis we need to find the full text of scripts 
 | The Two Towers | [TT Book](http://portal.tolkienianos.pt/files/The_LotR_II.pdf) | [TT Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings2-TTT.pdf) |
 | The Return of the King | [RotK Book](http://portal.tolkienianos.pt/files/The_LotR_III.pdf) | [RotK Screenplay](http://www.fempiror.com/otherscripts/LordoftheRings3-ROTK.pdf) |
 
-With the help of [Data from Mechanical Turk study](http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0026752.s001&type=supplementary) we scan all the texts with a 200 word window and create the sentiment profiles of books and movies:
+With the help of [Data from Mechanical Turk study](http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0026752.s001&type=supplementary) we scan all the texts with a 4000 word window and create the sentiment profiles of books and movies:
 
 > graphs for books and movies
 
 > Discussion on the graphs
+
 
 > If we have time left: maybe word clouds could show some insights?
 
