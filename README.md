@@ -59,6 +59,8 @@ Another topic worth looking into is the long-term fandom debate of what is bette
 
 Last, but not least, we will be looking into the sentiment of interactions between each of the main characters of the LoTR books. Do Aragorn and Frodo share happy memories? Do Legolas and Gimli fight more than laugh around? Did Pippin and Merry ever had sad moments at all?
 
+[Project Trailer](https://www.youtube.com/watch?v=XjReGeUiwVI&feature=youtu.be)
+
 [Graphs analysis](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTR%20Graph/Project.ipynb)
 
 [Sentiment analysis](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTRSentiment/LotrSentiment.ipynb)
