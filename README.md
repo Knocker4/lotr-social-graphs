@@ -100,18 +100,38 @@ With the help of [Data from Mechanical Turk study](http://journals.plos.org/plos
 
 > graphs for books and movies
 
-> Discussion on the graphs
-
+On the graph above the dashed vertical lines indicate the volumes. We can see that in general the books and the movies are quite aligned in the mood. However, it seems that movies are more exaggerated when it comes to sentiment, but all in all, we have to conclude that Peter Jackson did one hell of a job!
 
 > If we have time left: maybe word clouds could show some insights?
 
 # Sentiment analysis of interactions of characters
 
-Now it is time to explore the relationships between the main characters of our books. We are going to take a close look at all nine members of the Fellowship, i.e. Aragorn, Gandalf, Frodo, Sam, Legolas, Gimli, Boromir, Merry and Pippin, as well as our main villains: Sauron, Saruman and Gollum.
+Now it is time to explore the relationships between the main characters of our books. We are going to take a closer look at some of most interesting ones, i.e. Frodo-Sam, Frodo-Sam-Gollum, Aragorn-Legolas-Gimli, Aragorn-Frodo-Boromir, Gandalf-Merry-Pippin, Merry-Pippin, Gandalf-Frodo-Sauron.
 
-We are going to follow similar logic as in the previous section: we will separate our characters into pairs, then we are going to slide a 200 word window section through the text and if both characters' names (including aliases, like Gollum-Sméagol or Aragorn-Strider) under consideration appear in the window - we calculate the sentiment.
+We are going to follow similar logic as in the previous section: we will separate our characters into pairs, then we are going to slide a 500 word window section through the text and if both characters' names (including aliases, like Gollum-Sméagol or Aragorn-Strider) under consideration appear in the window - we calculate the sentiment.
 
 > graphs for each pair of characters
 
-> Discussion of graphs: who had the happiest relationship, which relationship was most dramatic and difficult, etc.
+> Frodo and Sam
 
+Frodo and Sam have quite a difficult relationship, lots of ups and downs. A very significant drop around the end of the second book, which probably relates to Frodo being a jerk and throwing Sam off the destroy-ring team and decides that Gollum is his new best pal, despite of everything poor Sam did for that ungrateful prat. However they are back on good terms after Sam rescues Frodo from orcs and helps him reach Mount Doom.
+
+> Frodo, Sam and Gollum
+
+Here everything is even more complicated. In general you can see that Sam never really trusted Gollum, even during his Sméagol period. The Sméagol period is actually quite interesting to look at, it has generally higher level of sentiment especially regarding Frodo-Gollum relationship. For a brief moment there it seemed that they could be friends after all, although the graph is still as sporadic as Gollum's split personality.
+
+> Aragorn-Legolas-Gimli
+
+Quite an interesting relationship there. They are such good friends that their friendship goes hand-in-hand throughout the whole story. However, you can also notice that Aragorn is better friends with Legolas than Gimli and Legolas and Gimli have much more fun when they are together.
+
+> Aragorn-Frodo-Boromir
+
+> Gandalf-Merry-Pippin
+
+It is a pretty difficult triangle, Gandalf seems to never really take the two troublemakers very seriously at first, but after some time his eyes were opened wide and throughout the third book he had some very deep talks with Pippin during the siege of Minas Tirith.
+
+> Merry-Pippin
+
+Those are the friends impossible to break apart! They go through life with a pint in their hands and are able to laugh even in the darkest times. They start off as good friends, but they end up as even greater friends than they could ever imagine. The journey they took together strengthened them and was definitely worth taking.
+
+> Gandalf-Frodo-Sauron
