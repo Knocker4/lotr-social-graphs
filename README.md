@@ -61,9 +61,9 @@ Last, but not least, we will be looking into the sentiment of interactions betwe
 
 [Project Trailer](https://www.youtube.com/watch?v=XjReGeUiwVI&feature=youtu.be)
 
-[Graphs analysis](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTR%20Graph/Project.ipynb)
+[Graphs analysis notebook](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTR%20Graph/Project.ipynb?flush_cache=true)
 
-[Sentiment analysis](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTRSentiment/LotrSentiment.ipynb)
+[Sentiment analysis notebook](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTRSentiment/LotrSentiment.ipynb?flush_cache=true)
 
 # Characters network
 
