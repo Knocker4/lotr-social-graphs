@@ -59,6 +59,10 @@ Another topic worth looking into is the long-term fandom debate of what is bette
 
 Last, but not least, we will be looking into the sentiment of interactions between each of the main characters of the LoTR books. Do Aragorn and Frodo share happy memories? Do Legolas and Gimli fight more than laugh around? Did Pippin and Merry ever had sad moments at all?
 
+[Graphs analysis](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTR%20Graph/Project.ipynb)
+
+[Sentiment analysis](http://nbviewer.jupyter.org/github/Knocker4/lotr-social-graphs/blob/master/LOTRSentiment/LotrSentiment.ipynb)
+
 # Characters network
 
 We kick off our journey there and back again by creating the network of all the characters. In order to do that, we are going to use [The One Wiki To Rule Them All](http://lotr.wikia.com/wiki/Main_Page). 
