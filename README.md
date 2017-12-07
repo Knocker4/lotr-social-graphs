@@ -98,7 +98,10 @@ In order to perform sentiment analysis we need to find the full text of scripts 
 
 With the help of [Data from Mechanical Turk study](http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0026752.s001&type=supplementary) we scan all the texts with a 4000 word window and create the sentiment profiles of books and movies:
 
-> graphs for books and movies
+![Books Sentiment](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/booksSent.png)
+
+![Movies Sentiment](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/moviesSent.png)
+
 
 On the graph above the dashed vertical lines indicate the volumes. We can see that in general the books and the movies are quite aligned in the mood. However, it seems that movies are more exaggerated when it comes to sentiment, but all in all, we have to conclude that Peter Jackson did one hell of a job!
 
@@ -110,28 +113,34 @@ Now it is time to explore the relationships between the main characters of our b
 
 We are going to follow similar logic as in the previous section: we will separate our characters into pairs, then we are going to slide a 500 word window section through the text and if both characters' names (including aliases, like Gollum-Sméagol or Aragorn-Strider) under consideration appear in the window - we calculate the sentiment.
 
-> graphs for each pair of characters
-
-> Frodo and Sam
+![Frodo-Sam](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/FrodoSam.png)
 
 Frodo and Sam have quite a difficult relationship, lots of ups and downs. A very significant drop around the end of the second book, which probably relates to Frodo being a jerk and throwing Sam off the destroy-ring team and decides that Gollum is his new best pal, despite of everything poor Sam did for that ungrateful prat. However they are back on good terms after Sam rescues Frodo from orcs and helps him reach Mount Doom.
 
-> Frodo, Sam and Gollum
+![Frodo-Sam-Gollum](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/FrodoGollumSmeagol.png)
+
+![Frodo-Sam-Gollum-2](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/SamGollumSmeagol.png)
 
 Here everything is even more complicated. In general you can see that Sam never really trusted Gollum, even during his Sméagol period. The Sméagol period is actually quite interesting to look at, it has generally higher level of sentiment especially regarding Frodo-Gollum relationship. For a brief moment there it seemed that they could be friends after all, although the graph is still as sporadic as Gollum's split personality.
 
-> Aragorn-Legolas-Gimli
+![Aragorn-Legolas-Gimli](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/AragornLegolasGimli.png)
 
 Quite an interesting relationship there. They are such good friends that their friendship goes hand-in-hand throughout the whole story. However, you can also notice that Aragorn is better friends with Legolas than Gimli and Legolas and Gimli have much more fun when they are together.
 
-> Aragorn-Frodo-Boromir
+![Aragorn-Frodo-Boromir](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/AragornBoromirFrodo.png)
 
-> Gandalf-Merry-Pippin
+A difficult relationship considering that Boromir was trying pretty hard to take the ring from Frodo. You can clearly see how Aragorn was protecting Frodo all the time and his relationship with Boromir steadily went down until Boromir did the right thing protecting Merry and Pippin until his last breath.
+
+![Gandalf-Merry-Pippin](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/GandalfMerryPippin.png)
+
 
 It is a pretty difficult triangle, Gandalf seems to never really take the two troublemakers very seriously at first, but after some time his eyes were opened wide and throughout the third book he had some very deep talks with Pippin during the siege of Minas Tirith.
 
-> Merry-Pippin
+![Merry-Pippin](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/MerryPippin.png)
+
 
 Those are the friends impossible to break apart! They go through life with a pint in their hands and are able to laugh even in the darkest times. They start off as good friends, but they end up as even greater friends than they could ever imagine. The journey they took together strengthened them and was definitely worth taking.
 
-> Gandalf-Frodo-Sauron
+![Gandalf-Frodo-Sauron](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/GandalfFrodoSauron.png)
+
+As you can see, Gandalf is very wary about Sauron at all times, and he knows that he is a big threat from the very beginning. Frodo, however, has more complicated feelings towards Sauron, probably it would have something to do with that ring of his hanging on his neck. Maybe he found strength in himself to show sympathy to the dark lord? All that, however, didn't prevent Frodo and Gandalf from having a strong and a quite happy relationship, except for the part where Gandalf dies... oops.
