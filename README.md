@@ -65,7 +65,7 @@ We kick off our journey there and back again by creating the network of all the 
 
 Using their api we fetch all of the characters and the links between them and build our network. Here it is in its raw state:
 
-> Initial graph
+![Initial graph](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/CompleteGraph.png)
 
 The number of nodes in this graph is 784, each node represents one character and each edge represents the link between two characters. As one can notice there are quite a lot of characters with barely any links, thus they are not worth investigating into and we should clean them up. we will perform the clean up by extracting the giant connected component. This leaves us with the following graph:
 
