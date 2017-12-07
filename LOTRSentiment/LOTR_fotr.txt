@@ -1791,14 +1791,14 @@ of the Stoors, for they loved the River, and often swam in it, or made little
 boats of reeds. There was among them a family of high repute, for it was large
 and wealthier than most, and it was ruled by a grandmother of the folk, stern
 and wise in old lore, such as they had. The most inquisitive and curiousminded
-of that family was called Sméagol. He was interested in roots and
+of that family was called Smeagol. He was interested in roots and
 beginnings; he dived into deep pools; he burrowed under trees and growing
 plants; he tunnelled into green mounds; and he ceased to look up at the hilltops,
 or the leaves on trees, or the flowers opening in the air: his head and
 his eyes were downward.
  'He had a friend called Déagol, of similar sort, sharper-eyed but not so
 quick and strong. On a time they took a boat and went down to the Gladden
-Fields, where there were great beds of iris and flowering reeds. There Sméagol
+Fields, where there were great beds of iris and flowering reeds. There Smeagol
 got out and went nosing about the banks but Deal sat in the boat and fished.
 Suddenly a great fish took his hook, and before he knew where he was, he was
 dragged out and down into the water, to the bottom. Then he let go of his
@@ -1807,18 +1807,18 @@ his breath he grabbed at it.
  'Then up he came spluttering, with weeds in his hair and a handful of
 mud; and he swam to the bank. And behold! when he washed the mud away, there
 in his hand lay a beautiful golden ring; and it shone and glittered in the
-sun, so that his heart was glad. But Sméagol had been watching him from behind
-a tree, and as Deal gloated over the ring, Sméagol came softly up behind.
- '"Give us that, Deal, my love," said Sméagol, over his friend's shoulder.
+sun, so that his heart was glad. But Smeagol had been watching him from behind
+a tree, and as Deal gloated over the ring, Smeagol came softly up behind.
+ '"Give us that, Deal, my love," said Smeagol, over his friend's shoulder.
  '"Why?" said Deal.
- ' "Because it's my birthday, my love, and I wants it," said Sméagol.
+ ' "Because it's my birthday, my love, and I wants it," said Smeagol.
  '"I don't care," said Deal. "I have given you a present already, more
 than I could afford. I found this, and I'm going to keep it."
- ' "Oh, are you indeed, my love," said Sméagol; and he caught Deal by the
+ ' "Oh, are you indeed, my love," said Smeagol; and he caught Deal by the
 throat and strangled him, because the gold looked so bright and beautiful.
 Then he put the ring on his finger.
  'No one ever found out what had become of Deal; he was murdered far from
-home, and his body was cunningly hidden. But Sméagol returned alone; and he
+home, and his body was cunningly hidden. But Smeagol returned alone; and he
 found that none of his family could see him, when he was wearing the ring. He
 was very pleased with his discovery and he concealed it; and he used it to
 find out secrets, and he put his knowledge to crooked and malicious uses. He
@@ -1938,7 +1938,7 @@ but I have managed it at last.'
 you have to sift his words. For instance, he called the Ring his "birthday
 present", and he stuck to that. He said it came from his grandmother, who had
 lots of beautiful things of that kind. A ridiculous story. I have no doubt
-that Sméagol's grandmother was a matriarch, a great person in her way, but to
+that Smeagol's grandmother was a matriarch, a great person in her way, but to
 talk of her possessing many Elven-rings was absurd, and as for giving them
 away, it was a lie. But a lie with a grain of truth.
  'The murder of Deal haunted Gollum, and he had made up a defence,
@@ -9266,7 +9266,7 @@ errand.'
  `Alas! alas!' cried Legolas, and in his fair elvish face there was great
 distress. `The tidings that I was sent to bring must now be told. They are not
 good, but only here have I learned how evil they may seem to this company.
-Sméagol, who is now called Gollum, has escaped.'
+Smeagol, who is now called Gollum, has escaped.'
  'Escaped?' cried Aragorn. 'That is ill news indeed. We shall all rue it
 bitterly, I fear. How came the folk of Thranduil to fail in their trust?'
  `Not through lack of watchfulness,' said Legolas; `but perhaps through
