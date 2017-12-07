@@ -103,9 +103,9 @@ With the help of [Data from Mechanical Turk study](http://journals.plos.org/plos
 ![Movies Sentiment](https://raw.githubusercontent.com/Knocker4/lotr-social-graphs/gh-pages/images/Graphs/moviesSent.png)
 
 
-On the graph above the dashed vertical lines indicate the volumes. We can see that in general the books and the movies are quite aligned in the mood. However, it seems that movies are more exaggerated when it comes to sentiment, but all in all, we have to conclude that Peter Jackson did one hell of a job!
+On the graph above the dashed vertical lines indicate the volumes. We can see that in general the books and the movies are quite aligned in the mood. However, it seems that movies are more exaggerated when it comes to sentiment, but all in all, we have to conclude that Peter Jackson did one hell of a job! 
 
-> If we have time left: maybe word clouds could show some insights?
+Just from looking at the profiles you can see where the epic battle scene was or a mellow feast. Those changes are strongly apparent in both the books and the movies. Take for instance the last part, you can clearly see the difficult moment of desperation when Frodo is struggling to throw the ring into the fires of Mount Doom and the allied army is surrounded by the hordes of Sauron's orcs, and how the moment the ring is destroyed everything resolves and the moment of clear happiness emerges.
 
 # Sentiment analysis of interactions of characters
 
