@@ -1,0 +1,9 @@
+Actor
+Culture
+Gender
+Lifespan
+List_of_peoples
+Name
+Peter_Jacksons_Film_Trilogy
+Realm
+Weapon
